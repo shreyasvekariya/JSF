@@ -27,9 +27,9 @@ const app = express();
 // === MySQL Connection ===
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'root',       // default for XAMPP
+    user: 'root',   
     password: '',
-    database: 'test'    // change to 'node_app' if you followed earlier instructions
+    database: 'test' 
 });
 
 db.connect(err => {
